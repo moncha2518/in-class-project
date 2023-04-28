@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background_image.jpg);
+}
+#container{
+    margin: 15px 30px 15px 30px;
+    
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+#title{
+    font-family: 'Sigmar', cursive;
+    font-size:xx-large;
+    font-weight:bolder;
+    text-align: center;
+}
+#title span{
+    color: red;
+    text-align: center;   
+}
+#description{
+    font-family: 'Ysabeau', sans-serif;
+    font-weight:bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 0;
+}
+#survey-form{
+    width: 35vw;
+    height: 86vh;
+    background-color: rgba(0,0,0,.5);
+    margin: 0 auto;
+    padding: 10px 40px;   
+}
+.box{
+    font-family: 'Roboto', sans-serif;
+    font-size:x-small;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+.my-text,select{
+    block-size: 22px;
+    padding-left: 8px;
+    width: 350px;
+    margin: 8px 0px;
+}
+.button input{
+    border-radius:20px;
+    margin: 0 auto;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    display: block;
+}
+textarea{
+    margin-top:6px;
+    width: 320px;    
+}
+.button{
+    width: 88%;
+}
+
+
